@@ -427,7 +427,7 @@
                 ]
             },
             "properties": {
-                "name": "Den kâ€™e",
+                "name": "Den k’e",
                 "styleUrl": "#PolyStyle00",
                 "styleHash": "-22ff6d75",
                 "stroke": "#73c000",
@@ -1459,7 +1459,7 @@
                 ]
             },
             "properties": {
-                "name": "Tseâ€™khene",
+                "name": "Tse’khene",
                 "styleUrl": "#PolyStyle01",
                 "styleHash": "-710abe0e",
                 "stroke": "#50ff50",
@@ -2427,7 +2427,7 @@
                 ]
             },
             "properties": {
-                "name": "TÄÅ‚tÄn",
+                "name": "Tāłtān",
                 "styleUrl": "#PolyStyle02",
                 "styleHash": "2e4878df",
                 "stroke": "#00ff00",
@@ -3963,7 +3963,7 @@
                 ]
             },
             "properties": {
-                "name": "ï¡ˆenaksialakÌ“ala / ï¡ˆa'â€™islakÌ“ala",
+                "name": "enaksialak̓ala / a'’islak̓ala",
                 "styleUrl": "#PolyStyle05",
                 "styleHash": "-2c1dfa9e",
                 "stroke": "#ff00ff",
@@ -4627,7 +4627,7 @@
                 ]
             },
             "properties": {
-                "name": "Ã‰y7Ã¡7juuthem",
+                "name": "Éy7á7juuthem",
                 "styleUrl": "#PolyStyle06",
                 "styleHash": "-332b0b9",
                 "stroke": "#ffd860",
@@ -5483,7 +5483,7 @@
                 ]
             },
             "properties": {
-                "name": "Hulâ€™qâ€™umiâ€™numâ€™ / Halq'emÃ©ylem / hÉ™nÌ“qÌ“É™minÌ“É™m",
+                "name": "Hul’q’umi’num’ / Halq'eméylem / hən̓q̓əmin̓əm",
                 "styleUrl": "#PolyStyle07",
                 "styleHash": "5d75dfc0",
                 "stroke": "#ffa850",
@@ -6307,7 +6307,7 @@
                 ]
             },
             "properties": {
-                "name": "Sá¸µwxÌ±wÃº7mesh snÃ­chim",
+                "name": "Sḵwx̱wú7mesh sníchim",
                 "styleUrl": "#PolyStyle09",
                 "styleHash": "-42058c34",
                 "stroke": "#ffc000",
@@ -7079,7 +7079,7 @@
                 ]
             },
             "properties": {
-                "name": "StÌ“Ã¡tÌ“imcets",
+                "name": "St̓át̓imcets",
                 "styleUrl": "#PolyStyle011",
                 "styleHash": "-4f4b31fd",
                 "stroke": "#f43800",
@@ -7423,7 +7423,7 @@
                 ]
             },
             "properties": {
-                "name": "SENÄ†OÅ¦EN / Malchosen / Lekwungen / Semiahmoo / Tâ€™Sou-ke",
+                "name": "SENĆOŦEN / Malchosen / Lekwungen / Semiahmoo / T’Sou-ke",
                 "styleUrl": "#PolyStyle013",
                 "styleHash": "7b4e5abb",
                 "stroke": "#ff8000",
@@ -9619,7 +9619,7 @@
                 ]
             },
             "properties": {
-                "name": "Inland ÅingÃ­t",
+                "name": "Inland Łingít",
                 "styleUrl": "#PolyStyle015",
                 "styleHash": "302fed2d",
                 "stroke": "#ffff00",
@@ -10835,7 +10835,7 @@
                 ]
             },
             "properties": {
-                "name": "DanezÄgÃ©â€™",
+                "name": "Danezāgé’",
                 "styleUrl": "#PolyStyle016",
                 "styleHash": "-76ad8b6a",
                 "stroke": "#00d000",
@@ -12535,7 +12535,7 @@
                 ]
             },
             "properties": {
-                "name": "Dakelh (á‘•á—¸á’¡)",
+                "name": "Dakelh (ᑕᗸᒡ)",
                 "styleUrl": "#PolyStyle017",
                 "styleHash": "-4755196d",
                 "stroke": "#00d068",
@@ -13443,7 +13443,7 @@
                 ]
             },
             "properties": {
-                "name": "Dene K'e)",
+                "name": "Dene K'e",
                 "styleUrl": "#PolyStyle019",
                 "styleHash": "1596b23",
                 "stroke": "#c0ff60",
@@ -14935,7 +14935,7 @@
                 ]
             },
             "properties": {
-                "name": "á“€á¦áƒá”­ááá£ (NÄ“hiyawÄ“win)",
+                "name": "ᓀᐦᐃᔭᐍᐏᐣ (Nēhiyawēwin)",
                 "styleUrl": "#PolyStyle020",
                 "styleHash": "-50af64cb",
                 "stroke": "#b0b0b0",
@@ -15831,7 +15831,7 @@
                 ]
             },
             "properties": {
-                "name": "Dane-Zaa (á‘•á“€ á–š)",
+                "name": "Dane-Zaa (ᑕᓀ ᖚ)",
                 "styleUrl": "#PolyStyle021",
                 "styleHash": "-13f79978",
                 "stroke": "#90f000",
@@ -17023,7 +17023,7 @@
                 ]
             },
             "properties": {
-                "name": "ÅingÃ­t",
+                "name": "Łingít",
                 "styleUrl": "#PolyStyle022",
                 "styleHash": "285c571d",
                 "stroke": "#ffff90",
@@ -17695,7 +17695,7 @@
                 ]
             },
             "properties": {
-                "name": "XÌ±aad Kil / XÌ±aaydaa Kil (Haida)",
+                "name": "X̱aad Kil / X̱aaydaa Kil (Haida)",
                 "styleUrl": "#PolyStyle023",
                 "styleHash": "-43bfb930",
                 "stroke": "#a000a0",
@@ -18055,7 +18055,7 @@
                 ]
             },
             "properties": {
-                "name": "NuuÄaanÌ“uÉ«",
+                "name": "Nuučaan̓uɫ",
                 "styleUrl": "#PolyStyle024",
                 "styleHash": "-52883903",
                 "stroke": "#ff60b0",
@@ -18279,7 +18279,7 @@
                 ]
             },
             "properties": {
-                "name": "DiitiidÊ”aatxÌ£",
+                "name": "Diitiidʔaatx̣",
                 "styleUrl": "#PolyStyle0251",
                 "styleHash": "-2bcb8d64",
                 "styleMapHash": {
@@ -19363,7 +19363,7 @@
                 ]
             },
             "properties": {
-                "name": "KwakÌ“wala",
+                "name": "Kwak̓wala",
                 "styleUrl": "#PolyStyle028",
                 "styleHash": "-faa968b",
                 "stroke": "#ffb0ff",
@@ -20455,7 +20455,7 @@
                 ]
             },
             "properties": {
-                "name": "Nedutâ€™en",
+                "name": "Nedut’en",
                 "styleUrl": "#PolyStyle030",
                 "styleHash": "7769cd4f",
                 "stroke": "#b0ffb0",
@@ -20871,7 +20871,7 @@
                 ]
             },
             "properties": {
-                "name": "GitsenimxÌ±",
+                "name": "Gitsenimx̱",
                 "styleUrl": "#PolyStyle031",
                 "styleHash": "-3fdaa283",
                 "stroke": "#d09c00",
@@ -21551,7 +21551,7 @@
                 ]
             },
             "properties": {
-                "name": "NisgÌ±aâ€™a",
+                "name": "Nisg̱a’a",
                 "styleUrl": "#PolyStyle032",
                 "styleHash": "-64044f5e",
                 "stroke": "#906c00",
@@ -24003,7 +24003,7 @@
                 ]
             },
             "properties": {
-                "name": "SmÌ“algyaÌ±x",
+                "name": "Sm̓algya̱x",
                 "styleUrl": "#PolyStyle034",
                 "styleHash": "3efad724",
                 "stroke": "#c09000",
@@ -29979,7 +29979,7 @@
                 ]
             },
             "properties": {
-                "name": "NsyilxcÉ™n",
+                "name": "Nsyilxcən",
                 "styleUrl": "#PolyStyle036",
                 "styleHash": "-7679e73a",
                 "stroke": "#ff6060",
@@ -30311,7 +30311,7 @@
                 ]
             },
             "properties": {
-                "name": "NqlispÃ©liÅ¡cn",
+                "name": "Nqlispélišcn",
                 "styleUrl": "#PolyStyle029",
                 "styleHash": "-42a38866",
                 "stroke": "#ff4000",
@@ -31331,7 +31331,7 @@
                 ]
             },
             "properties": {
-                "name": "NÅ‚eÊ”kepmxcÃ­n",
+                "name": "Nłeʔkepmxcín",
                 "styleUrl": "#PolyStyle010",
                 "styleHash": "-31db92ec",
                 "stroke": "#c03000",
@@ -33211,8 +33211,8 @@
                 ]
             },
             "properties": {
-                "name": "PÉ™ntlâ€™Ã¡Ä",
-                "styleUrl": "#SleepingTsetsaut",
+                "name": "Pəntl’áč",
+                "styleUrl": "#SleepingPentlatch",
                 "styleHash": "-1ba8938b",
                 "stroke": "#ffffff",
                 "stroke-opacity": 0,
@@ -33463,8 +33463,8 @@
                 ]
             },
             "properties": {
-                "name": "Wetlah",
-                "styleUrl": "#SleepingNooksack",
+                "name": "Wetalh",
+                "styleUrl": "#SleepingTsetsaut",
                 "styleHash": "-3a2adf53",
                 "stroke": "#ffffff",
                 "stroke-opacity": 0,
@@ -33727,8 +33727,8 @@
                 ]
             },
             "properties": {
-                "name": "LhÃ©chelesem",
-                "styleUrl": "#SleepingPentlatch",
+                "name": "Lhéchelesem",
+                "styleUrl": "#SleepingNooksack",
                 "styleHash": "2c8cd4d",
                 "stroke": "#ffffff",
                 "stroke-opacity": 0,

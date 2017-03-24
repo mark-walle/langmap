@@ -1,6 +1,12 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanscanadianaboriginal.css); 
+
 body {
     padding: 0;
     margin: 0;
+}
+.popupCustom .leaflet-popup-content-wrapper {
+	/*font-family: 'Noto Sans Canadian Aboriginal', sans-serif;*/
+    color: #7C3B7D;
 }
 html, body, #map {
     height: 100%;
