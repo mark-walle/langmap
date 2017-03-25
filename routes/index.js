@@ -6,6 +6,8 @@ var user = process.env.RDS_USER,
     pass = process.env.RDS_PASS,
     addr = process.env.RDS_ADDR;
 
+console.log(user + ", " + pass + ", " + addr);
+
 var pg = require("pg");
 
 var conString = "postgres://"+user+":"+pass+"@"+addr;

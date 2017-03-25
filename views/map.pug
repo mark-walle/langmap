@@ -5,19 +5,85 @@ block content
         var myData = !{JSON.stringify(jsonData)};
         // Create variable to hold map element, give initial settings to map
         var map = L.map('map',{ center: [55, -125.15], zoom: 5});
-        // Add OpenStreetMap tile layer to map element
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
-        	attribution: '© OpenStreetMap, source data <a href="http://maps.fphlcc.ca/">FPHLCC</a>, <a href="http://mark-walle.github.io">Mark Walle</a>, 2017' 
-        }).addTo(map);
+        
         // Add JSON to map
         var customOptions =
             {
-            'maxWidth': '400',
-            'width': '200',
-            'className' : 'popupCustom'
+                'maxWidth': '400',
+                'width': '200',
+                'className' : 'popupCustom'
             }
-        L.geoJson(myData,{
-            onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.f2,customOptions);
+
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+            this.update();
+            return this._div;
+        };
+
+        // method that we will use to update the control based on feature properties passed
+        info.update = function (props) {
+            this._div.innerHTML = '<h4>First Peoples\' Language Map of BC</h4>' +  (props ?
+                '<b>' + props.f2 + '</b>'
+                : 'Hover over an language area');
+        };
+
+        info.addTo(map);
+
+        function style(feature) {
+            return {
+                fillColor: feature.properties.f3,
+                weight: 1,
+                opacity: 1,
+                color: '#B199C2',
+                dashArray: '3',
+                fillOpacity: 0.7
+            };
+        }
+        function resetHighlight(e) {
+            geojson.resetStyle(e.target);
+            var layer= e.target;
+            //- layer.bringToBack();
+            info.update();
+        }
+        function highlightFeature(e) {
+            var layer = e.target;
+
+            //- layer.bringToFront();
+
+            layer.setStyle({
+                weight: 2,
+                color: '#bc74be',
+                dashArray: '',
+                fillOpacity: 0.4
+            });
+
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                //- layer.bringToFront();
             }
+
+            info.update(layer.feature.properties);
+        }
+
+        function onEachFeature (feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight
+            });
+
+            layer.bindPopup(feature.properties.f2,customOptions);
+        }
+
+        // Add OpenStreetMap tile layer to map element
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
+            attribution: '© OpenStreetMap, source data <a href="http://maps.fphlcc.ca/">FPHLCC</a>, <a href="http://mark-walle.github.io">Mark Walle</a>, 2017' 
+        }).addTo(map);
+
+        var geojson;
+        geojson = L.geoJson(myData,{
+            style: style,
+            onEachFeature: onEachFeature,
+            riseOnHover: true
+
         }).addTo(map);

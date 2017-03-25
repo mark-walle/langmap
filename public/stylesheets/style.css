@@ -1,14 +1,29 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanscanadianaboriginal.css); 
 
+html, body, #map {
+	font-family: 'Noto Sans Canadian Aboriginal', sans-serif;
+	color: #7C3B7D;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
-.popupCustom .leaflet-popup-content-wrapper {
-	font-family: 'Noto Sans Canadian Aboriginal', sans-serif;
+/*.popupCustom .leaflet-popup-content-wrapper {
     color: #7C3B7D;
+}*/
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
-html, body, #map {
-    height: 100%;
-    width: 100%;
+.info h4 {
+    margin: 0 0 5px;
+    color: #bc74be;
 }
