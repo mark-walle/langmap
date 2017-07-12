@@ -14,6 +14,11 @@ block content
                 'className' : 'popupCustom'
             }
 
+        // Add OpenStreetMap tile layer to map element
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
+            attribution: '© OpenStreetMap. Source: <a href="http://maps.fphlcc.ca/">FPHLCC</a>.<br><a href="http://blog.maakusii.com">Mark Walle</a>, 2017' 
+        }).addTo(map);
+
         var info = L.control();
 
         info.onAdd = function (map) {
@@ -41,16 +46,15 @@ block content
                 fillOpacity: 0.7
             };
         }
+
         function resetHighlight(e) {
             geojson.resetStyle(e.target);
             var layer= e.target;
-            //- layer.bringToBack();
             info.update();
         }
+
         function highlightFeature(e) {
             var layer = e.target;
-
-            //- layer.bringToFront();
 
             layer.setStyle({
                 weight: 2,
@@ -58,10 +62,6 @@ block content
                 dashArray: '',
                 fillOpacity: 0.4
             });
-
-            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-                //- layer.bringToFront();
-            }
 
             info.update(layer.feature.properties);
         }
@@ -71,19 +71,11 @@ block content
                 mouseover: highlightFeature,
                 mouseout: resetHighlight
             });
-
             layer.bindPopup(feature.properties.f2,customOptions);
         }
-
-        // Add OpenStreetMap tile layer to map element
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
-            attribution: '© OpenStreetMap, source data <a href="http://maps.fphlcc.ca/">FPHLCC</a>, <a href="http://mark-walle.github.io">Mark Walle</a>, 2017' 
-        }).addTo(map);
 
         var geojson;
         geojson = L.geoJson(myData,{
             style: style,
             onEachFeature: onEachFeature,
-            riseOnHover: true
-
         }).addTo(map);
